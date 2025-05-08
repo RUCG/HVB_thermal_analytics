@@ -1,1 +1,10 @@
-raw_data/*
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Data files
+*.mf4
+
+# User-specific / OS files
+.DS_Store
