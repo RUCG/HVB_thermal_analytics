@@ -671,7 +671,7 @@ def main(db_path, lookup_table_path, file_id, vmin, vmax):
         print("No temperature data found.")
 
 if __name__ == "__main__":
-    mf4_path = "raw_data/Trigger4Converted.mf4"
+    mf4_path = "raw_data/Trigger1Converted.mf4"
     vmin, vmax = 15., 40.
 
     temperatures, sensor_ids = extract_temperatures_from_mf4(mf4_path)
