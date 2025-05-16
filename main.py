@@ -3,7 +3,7 @@ import json
 import numpy as np
 from config_utils import load_config
 from data_extraction import extract_temperatures_from_mf4
-from interface import interactive_battery_layout  # neue Version mit Radiobuttons & Sprungbutton
+from interface_development import interactive_battery_layout  # neue Version mit Radiobuttons & Sprungbutton
 
 def load_sensor_order(name):
     layout_dir = os.path.join(os.path.dirname(__file__), "layouts")
